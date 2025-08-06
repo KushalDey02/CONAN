@@ -1,17 +1,14 @@
-# Configuration file for the Sphinx documentation builder.
+# content/conf.py
 
-# -- Project information -----------------------------------------------------
-project = 'CONAN'
-author = 'Ali Raya, Kushal Dey'
+project = "CONAN"
+author = "Ali Raya, Kushal Dey"
 
-# -- General configuration ---------------------------------------------------
 extensions = []
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
 
-# -- Options for HTML output -------------------------------------------------
-html_theme = 'sphinx_book_theme'
+html_theme = "sphinx_book_theme"
 html_theme_options = {
     "repository_url": "https://github.com/KushalDey02/CONAN",
     "use_repository_button": True,
