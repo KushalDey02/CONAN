@@ -46,5 +46,3 @@ html:
       repository_branch: main
       path_to_docs: ""
 
-sphinx:
-  config: content/conf.py
