@@ -45,3 +45,6 @@ html:
       repository_url: https://github.com/KushalDey02/CONAN
       repository_branch: main
       path_to_docs: ""
+
+sphinx:
+  config: content/conf.py
