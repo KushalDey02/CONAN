@@ -3,9 +3,12 @@
 
 format: jb-book
 root: content/intro
-chapters:
-- file: content/markdown
-  sections:
-    - file: content/markdown-notebooks
-    - file: content/notebooks
-- file: content/environment
+parts:
+  - caption: Tutorial
+    chapters:
+      - file: content/markdown
+        sections:
+          - file: content/markdown-notebooks
+          - file: content/notebooks
+      - file: content/environment
+
