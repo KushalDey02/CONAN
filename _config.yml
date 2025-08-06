@@ -29,24 +29,18 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  favicon: logo.png
   use_repository_button: true
   use_issues_button: true
   use_edit_page_button: true
+
   theme:
     name: sphinx_book_theme
     options:
-      path_to_docs: ""
       home_page_in_toc: true
+      show_navbar_depth: 2
       use_repository_button: true
       use_edit_page_button: true
       use_issues_button: true
       repository_url: https://github.com/KushalDey02/CONAN
       repository_branch: main
-      extra_navbar: ""
-      extra_footer: ""
-      show_navbar_depth: 2
-      launch_buttons:
-        notebook_interface: classic
-        colab_url: ""
-        binderhub_url: ""
-        thebe: false
