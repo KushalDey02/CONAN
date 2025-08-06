@@ -5,6 +5,7 @@ title: CONAN
 author: Ali Raya, Kushal Dey
 logo: logo.png
 only_build_toc_files: true
+root: content/intro
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
